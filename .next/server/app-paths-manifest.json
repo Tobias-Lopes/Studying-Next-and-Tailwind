@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/5_tamanhos/page": "app/5_tamanhos/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/6_bordas/page": "app/6_bordas/page.js",
+  "/7_componentes/page": "app/7_componentes/page.js",
+  "/8_colunas/page": "app/8_colunas/page.js",
+  "/9_flutuante/page": "app/9_flutuante/page.js"
+}
