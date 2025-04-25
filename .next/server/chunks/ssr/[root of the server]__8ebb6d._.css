@@ -4,6 +4,15 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
+  src: url("/_next/static/media/gyByhwUxId8gMEwYGFWNOITddY4-s.b7d310ad.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
   src: url("/_next/static/media/gyByhwUxId8gMEwSGFWNOITddY4-s.81df3a5b.woff2") format("woff2");
   unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -37,6 +46,15 @@
 
 
 /* [next]/internal/font/google/geist_mono_68a01160.module.css [app-client] (css) */
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/_next/static/media/or3nQ6H_1_WfwkMZI_qYFrMdmhHkjkotbA-s.cb6bbcb1.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
 @font-face {
   font-family: Geist Mono;
   font-style: normal;
@@ -428,12 +446,76 @@ img, video {
   background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
 }
 
-.float-right {
-  float: right;
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-2 {
+  top: .5rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.bottom-2 {
+  bottom: .5rem;
+}
+
+.top-1 {
+  top: .25rem;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
 }
 
 .float-left {
   float: left;
+}
+
+.m-2 {
+  margin: .5rem;
 }
 
 .m-8 {
@@ -442,14 +524,6 @@ img, video {
 
 .m-auto {
   margin: auto;
-}
-
-.m-3 {
-  margin: .75rem;
-}
-
-.m-2 {
-  margin: .5rem;
 }
 
 .flex {
@@ -461,18 +535,12 @@ img, video {
   height: 10rem;
 }
 
-.size-2 {
-  width: .5rem;
-  height: .5rem;
-}
-
-.size-14 {
-  width: 3.5rem;
-  height: 3.5rem;
-}
-
 .h-1\/2 {
   height: 50%;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .h-96 {
@@ -483,12 +551,12 @@ img, video {
   height: 100vh;
 }
 
-.h-32 {
-  height: 8rem;
-}
-
 .w-1\/5 {
   width: 20%;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-4\/5 {
@@ -507,28 +575,16 @@ img, video {
   width: 100vw;
 }
 
-.w-32 {
-  width: 8rem;
-}
-
 .max-w-md {
   max-width: 28rem;
-}
-
-.columns-3 {
-  columns: 3;
-}
-
-.columns-2 {
-  columns: 2;
 }
 
 .columns-1 {
   columns: 1;
 }
 
-.gap-4 {
-  gap: 1rem;
+.columns-3 {
+  columns: 3;
 }
 
 .gap-8 {
@@ -543,12 +599,12 @@ img, video {
   border-radius: .75rem;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-x-4 {
@@ -613,6 +669,16 @@ img, video {
 .bg-slate-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
+}
+
+.bg-purple-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(192 132 252 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\/img\/cidade\.jpg\)\] {
